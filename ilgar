@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilgar | My University Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background: #1e3a8a;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: #dbeafe;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: #172554;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 35px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+        }
+
+        h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+        }
+
+        .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            flex: 1;
+            min-width: 200px;
+            padding: 20px;
+            background: #eff6ff;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>My University Web Development Project</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h2>Hello, Welcome!</h2>
+        <p>This is my personal university website.</p>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            My name is Ilgar. I am a university student interested
+            in technology, web development and learning new skills.
+            This website was created as part of my university project.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Learning the basics of HTML and creating web pages.</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Using CSS to design and improve website layouts.</p>
+            </div>
+
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Publishing a website using GitHub Pages.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Thank you for visiting my website!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ilgar | University Website</p>
+    </footer>
+
+</body>
+</html>
